@@ -30,7 +30,7 @@ export default function Roulette({ colors, info, n }) {
       marginLeft={"11px"}
     >
       <Flex justifyContent={"center"} alignItems={"center"}>
-        {n === 4 ? (
+        {n === 5 ? (
           <Text
             mt={"10px"}
             fontSize={"xl"}
@@ -60,7 +60,7 @@ export default function Roulette({ colors, info, n }) {
           setMustSpin(false);
         }}
         fontSize="20"
-        backgroundColors={["#FFFF00", "#00FF7F", "#FF69B4", "#ADD8E6"]}
+        backgroundColors={["#e2b8f3", "#9ee0bf", "#f3b9d6", "#ADD8E6", "#f0f884"]}
       />
       <Button
         bgColor={"purple.500"}
