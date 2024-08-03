@@ -38,6 +38,14 @@ export default function Roulette({ colors, info, n }) {
           >
             한달 전체
           </Text>
+        ) : n === 4 ? (
+          <Text
+            mt={"10px"}
+            fontSize={"xl"}
+            fontFamily={"PyeongChangPeace-Bold"}
+          >
+            수련회
+          </Text>
         ) : (
           <Text
             mt={"10px"}
@@ -60,7 +68,13 @@ export default function Roulette({ colors, info, n }) {
           setMustSpin(false);
         }}
         fontSize="20"
-        backgroundColors={["#e2b8f3", "#9ee0bf", "#f3b9d6", "#ADD8E6", "#f0f884"]}
+        backgroundColors={[
+          "#e2b8f3",
+          "#9ee0bf",
+          "#f3b9d6",
+          "#ADD8E6",
+          "#f0f884",
+        ]}
       />
       <Button
         bgColor={"purple.500"}
