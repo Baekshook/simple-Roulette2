@@ -30,7 +30,7 @@ export default function Roulette({ colors, info, n }) {
       marginLeft={"11px"}
     >
       <Flex justifyContent={"center"} alignItems={"center"}>
-        {n === 5 ? (
+        {n === 4 ? (
           <Text
             mt={"10px"}
             fontSize={"xl"}
